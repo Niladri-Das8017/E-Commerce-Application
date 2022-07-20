@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="my.store.LogIn">
+  <grid id="27dc6" binding="logInPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16777216"/>
+      <font name="Consolas" size="12" style="1"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="bevel-raised" title="Log In Here" title-justification="2">
+      <font name="Droid Sans Mono" size="18" style="1"/>
+      <title-color color="-15228232"/>
+    </border>
+    <children>
+      <component id="a035a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14672098"/>
+          <foreground color="-1184791"/>
+          <icon value="my/store/Images/icons8-user-40.png"/>
+          <labelFor value="1d558"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="1d558" class="javax.swing.JTextField" binding="logInId">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14672098"/>
+          <caretColor color="-14336"/>
+          <disabledTextColor color="-1184791"/>
+          <font name="Droid Sans Mono" size="12" style="1"/>
+          <foreground color="-14336"/>
+        </properties>
+      </component>
+      <component id="8f70b" class="javax.swing.JPasswordField" binding="logInPsw">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-14672098"/>
+          <caretColor color="-14336"/>
+          <disabledTextColor color="-1184791"/>
+          <font name="Droid Sans Mono" size="12" style="1"/>
+          <foreground color="-14336"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="d6976" class="javax.swing.JButton" binding="logInButton" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14376723"/>
+          <borderPainted value="true"/>
+          <font swing-font="Button.font"/>
+          <foreground color="-1"/>
+          <text value="Log In"/>
+        </properties>
+      </component>
+      <component id="298e4" class="javax.swing.JButton" binding="signUpButton" custom-create="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1004210"/>
+          <borderPainted value="true"/>
+          <foreground color="-1"/>
+          <text value="Sign Up"/>
+        </properties>
+      </component>
+      <component id="95da7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14672098"/>
+          <foreground color="-1184791"/>
+          <icon value="my/store/Images/icons8-password-40.png"/>
+          <iconTextGap value="10"/>
+          <labelFor value="8f70b"/>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="29e6c" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-14672098"/>
+          <foreground color="-1184791"/>
+          <model>
+            <item value="User"/>
+            <item value="Employee"/>
+            <item value="Manager"/>
+          </model>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

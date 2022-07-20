@@ -1,0 +1,8 @@
+Instructions: 
+	1. First Name & Last Name Should be Greater than 2 Charecters.
+	2. Phone No. must have 10 digits and contains all numbers, otherwise it will be treated as invalid.
+	3. Email Address must contains "@" and it must be followed by ".com" in the end, otherwise it will be treated as invalid.
+	4. Password fields must not remained empty.
+	5. You have to brows your image wherever you placed it. Please resize your image with these values - "Width: 130, Height: 130/auto", otherwise you will be responsible for the upcoming mess.
+
+	...It is a warning...Resize the Image.

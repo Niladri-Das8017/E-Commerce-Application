@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyStore:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyStore_jar</output-path>
+    <root id="archive" name="MyStore.jar">
+      <element id="module-output" name="MyStore" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/sun.misc.BASE64Decoder.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Documents/mysql-connector-java-8.0.19.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/rs2xml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jcalendar-1.4/lib/jcalendar-1.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
